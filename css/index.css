@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+body {
+    background: #D8DFE8;
+    font-family: 'Inter', sans-serif;
+
+}
+
+body h1 {
+    padding: 20px 0;
+}
+
+
+
+.divcampo {
+    padding: 20px 0;
+
+    position: absolute;
+    left: 470px;
+
+    z-index: 100;
+}
+
+.divcampo textarea {
+    width: 70%;
+    height: 130px;
+    font-size: 15px;
+
+}
+
+.divcampo textarea:placeholder-shown {
+    font-style: italic;
+    font-size: 18px;
+}
+
+#campotexto {
+
+    border: none;
+    padding: 20px 40px;
+
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+}
+
+.campotextoactive {
+    width: 300px;
+
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+
+
+    resize: none;
+
+}
+
+#campotexto:focus {
+    outline: none;
+}
+
+.flexdiv {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+
+    position: absolute;
+    left: 470px;
+}
+
+
+#textoescrito {
+    width: 100%;
+    color: blue;
+}
+
+.botoes button {
+    margin: 10px 0 0 0;
+    cursor: pointer;
+
+
+}
+
+
+.areatexto {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+
+    position: relative;
+    left: 240px;
+
+    background: white;
+    width: 329px;
+    height: 700px;
+
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+
+
+}
+
+.areatexto img,
+h2 {
+    padding: 20px 0;
+    font-weight: bold;
+}
+
+.areatexto button {
+    color: #0A3871;
+    background: #D8DFE8;
+    border-color: #0A3871;
+
+    padding: 20px 70px;
+    border-radius: 15px;
+    border: 1px solid;
+    cursor: pointer;
+    font-size: 16px;
+
+    position: absolute;
+    bottom: 20px;
+    left: 50px;
+
+}
+
+
+.caixa span {
+    font-size: 10px;
+    color: #495057;
+    display: flex;
+    align-items: center;
+
+}
+
+.caixa span img {
+    margin-right: 5px;
+}
+
+.caixa button {
+    padding: 20px 70px;
+    border-radius: 15px;
+    border: 1px solid;
+
+    font-size: 16px;
+}
+
+
+.caixa button:nth-child(1) {
+    color: white;
+    border-color: #0A3871;
+    background: #0A3871;
+}
+
+.caixa button:nth-child(1):hover {
+    color: white;
+    border-color: #084b9c;
+    background: #084b9c;
+    transition: 500ms;
+}
+
+.caixa button:nth-child(1):active {
+    transform: scale(1.1);
+    transition: 0.05s;
+}
+
+.caixa button:nth-child(2) {
+    color: #0A3871;
+    background: #D8DFE8;
+    border-color: #0A3871;
+}
+
+
+
+.caixa button:nth-child(2):hover {
+    color: #0A3871;
+    background: #ffffff;
+    border-color: #0A3871;
+    transition: 500ms;
+
+
+}
+
+.caixa button:nth-child(2):active {
+    transform: scale(1.1);
+    transition: 0.05s;
+}
+
+.bcopiar {
+    display: none;
+
+}
+
+.visivel {
+    display: initial !important;
+    transition: 500ms;
+}
+
+.visivel:hover {
+    color: #0A3871;
+    background: #ffffff;
+    border-color: #0A3871;
+    transition: 500ms;
+
+}
+
+.visivel:active {
+    transform: scale(1.1);
+    transition: 0.05s;
+}

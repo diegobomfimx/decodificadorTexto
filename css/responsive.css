@@ -1,0 +1,203 @@
+@media screen and (max-width: 480px) {
+
+    .divcampo,
+    .flexdiv {
+        width: 100%;
+
+    }
+
+    .divcampo {
+        position: static;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .flexdiv {
+        position: static;
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .areatexto {
+        position: static;
+        width: 100%;
+        height: 150px;
+
+        margin-top: calc(100% - 70%);
+    }
+
+    .areatexto img {
+        display: none;
+    }
+
+    .caixa {
+        position: relative;
+        margin-top: calc(100% - 70%);
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+    }
+
+    .caixa span {
+
+        display: flex;
+        flex-direction: row;
+
+
+    }
+
+
+    .areatexto button {
+        position: relative;
+        margin: 0 auto;
+        top: 150px;
+        left: 0;
+
+
+    }
+}
+
+/* tablets layout */
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+
+    .divcampo,
+    .flexdiv {
+        width: 100%;
+
+    }
+
+    .divcampo {
+        position: static;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .divcampo textarea {
+        width: 50%;
+        height: 130px;
+        font-size: 15px;
+    }
+
+    .divcampo textarea:placeholder-shown {
+        font-style: italic;
+        font-size: 18px;
+    }
+
+    .flexdiv {
+        position: static;
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .areatexto {
+        position: static;
+        width: 100%;
+        height: 150px;
+
+        margin-top: calc(100% - 70%);
+    }
+
+    .areatexto img {
+        display: none;
+    }
+
+    .caixa {
+        position: relative;
+        margin-top: calc(100% - 70%);
+        align-self: center;
+        top: 100px;
+    }
+
+    .caixa span {
+        display: flex;
+        align-self: flex-start;
+        padding-left: 10px;
+    }
+
+    .areatexto button {
+        position: relative;
+        margin: 0 auto;
+        top: 150px;
+        left: 0;
+
+
+    }
+
+}
+
+/* tablets grandes */
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+
+    .divcampo,
+    .flexdiv {
+        width: 100%;
+
+    }
+
+    .divcampo {
+        position: static;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .divcampo textarea {
+        width: 50%;
+        height: 130px;
+        font-size: 15px;
+    }
+
+    .divcampo textarea:placeholder-shown {
+        font-style: italic;
+        font-size: 18px;
+    }
+
+    .flexdiv {
+        position: static;
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .areatexto {
+        position: static;
+        width: 100%;
+        height: 150px;
+
+        margin-top: calc(100% - 70%);
+    }
+
+    .areatexto img {
+        display: none;
+    }
+
+    .caixa {
+        position: relative;
+        margin-top: calc(100% - 70%);
+        align-self: center;
+        top: 100px;
+    }
+
+    .caixa span {
+        display: flex;
+        align-self: flex-start;
+        padding-left: 10px;
+    }
+
+    .areatexto button {
+        position: relative;
+        margin: 0 auto;
+        top: 150px;
+        left: 0;
+
+
+    }
+
+}
